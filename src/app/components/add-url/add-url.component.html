@@ -1,0 +1,19 @@
+<div class="container">
+  <h4>Add new URL</h4>
+  <form>
+    <div class="form-group">
+      <label for="url">URL</label>
+      <input type="text" class="form-control" id="url" aria-describedby="emailHelp" placeholder="URL" #url>
+    </div>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Name" #name>
+    </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      <input type="text" class="form-control" id="description" placeholder="Description" #description>
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="onClick()">Submit</button>
+  </form>
+
+</div>
